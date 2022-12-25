@@ -47,7 +47,7 @@ app.post('/', function(req,res){
 
     const options={
         method: "POST",
-        auth: "sanket:a50816b654ca82a83418998e4cc4cc271-us14"//auth : "anyName: authKey"
+        auth: "sanket:50816b654ca82a83418998e4cc4cc271-us14"//auth : "anyName: authKey"
     }//auth key for mailchimp is passed 
 
     const request = https.request(url, options, function(response){
